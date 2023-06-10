@@ -1,0 +1,26 @@
+.informacion{
+    padding: 20px;
+    background-color: rgb(238, 238, 238);
+}
+.informacion__contenido h1{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.informacion__contenido h5{
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.informacion__btn{
+    background-color: rgb(15, 109, 231);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.informacion__img{
+    margin-top: 2rem;
+}
+.informacion__img img{
+    width: 100%
+}

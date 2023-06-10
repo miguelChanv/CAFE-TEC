@@ -1,0 +1,49 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    gap: 20px;
+}
+.productos__cards{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.productos__cards-sub{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+}
+.productos_cards-sub-img{
+    
+}
+.productos_cards-sub-img img{
+    width: 80px;
+}
+.productos__cards-sub-nombre h2{
+    font-size: 1rem;
+}
+.productos__cards-sub-precio h4{
+    font-size: 1rem;
+}
+.productos__cards-sub-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding:2px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    background-color: rgb(28, 196, 187);
+    font-size: 0.8rem;
+}

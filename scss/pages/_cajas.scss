@@ -1,0 +1,29 @@
+.cajas{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajas__servicios{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.cajas__sub1{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.cajas__servicios a{
+    font-size: 0.8rem;
+    font-weight: bold;
+}

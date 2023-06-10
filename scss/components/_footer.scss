@@ -1,0 +1,32 @@
+footer{
+    color: white;
+    height: 300px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__redesSociales{
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.footer__name img{
+    padding-top: 20px;
+    width: 200px;
+}
+.footer__pags{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.footer__pags1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+.footer__pags1 a{
+    color: white;
+}

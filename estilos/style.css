@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: rgb(215, 214, 214);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.nav__hamburguesa {
+  width: 40px;
+}
+
+.nav__logo {
+  width: 120px;
+}
+
+.nav__icons {
+  font-size: 1.4rem;
+  justify-content: end;
+}
+
+.separador {
+  text-align: center;
+}
+
+.cajas {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajas__servicios {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cajas__sub1 {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.cajas__servicios a {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.categorias {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.categorias__h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.categorias__negritas {
+  font-weight: bold;
+}
+
+.categorias__imgs {
+  width: 100%;
+  height: 260px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.categorias__sub {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  height: 120px;
+}
+
+.categorias__sub img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.categorias__sub h3 {
+  font-size: 1rem;
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 540px;
+}
+
+.cards__sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 80%;
+  background-color: rgb(243, 242, 242);
+  height: 140px;
+}
+
+.cards__icon {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.cards__txt h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cards__txt h5 {
+  font-size: 1.1rem;
+}
+
+.informacion {
+  padding: 20px;
+  background-color: rgb(238, 238, 238);
+}
+
+.informacion__contenido h1 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.informacion__contenido h5 {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.informacion__btn {
+  background-color: rgb(15, 109, 231);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.informacion__img {
+  margin-top: 2rem;
+}
+
+.informacion__img img {
+  width: 100%;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+}
+
+.productos__cards {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.productos__cards-sub {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+}
+
+.productos_cards-sub-img img {
+  width: 80px;
+}
+
+.productos__cards-sub-nombre h2 {
+  font-size: 1rem;
+}
+
+.productos__cards-sub-precio h4 {
+  font-size: 1rem;
+}
+
+.productos__cards-sub-btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  background-color: rgb(28, 196, 187);
+  font-size: 0.8rem;
+}
+
+footer {
+  color: white;
+  height: 300px;
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__redesSociales {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer__name img {
+  padding-top: 20px;
+  width: 200px;
+}
+
+.footer__pags {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer__pags1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 15px;
+}
+
+.footer__pags1 a {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
