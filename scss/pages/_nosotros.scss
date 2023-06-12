@@ -1,0 +1,41 @@
+.nosotros{
+    height: 700px;
+    display: flex;
+    gap: 120px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros__img{
+    width: 50%;
+
+}
+.nosotros__txt{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    height: 600px;
+}
+.nosotros__txt h1{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nosotros__sub {
+    width: 180px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nosotros__sub img{
+    width: 100px;
+}
+.nosotros__sub h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nosotros__sub h5{
+    font-size: 0.9rem;
+}

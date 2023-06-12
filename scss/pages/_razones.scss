@@ -1,0 +1,40 @@
+
+@media(min-width:768px){
+.razones{
+    margin-top: 50px;
+    background-color: white;
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+}
+.razones__titulo{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.razones__titulo h1{
+    font-weight: bold;
+    
+}
+.razones__grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
+.razones__sub{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.razones__img{
+    width: 100px;
+}
+.razones__sub p{
+    font-size: 0.8rem;
+}
+.btn-razones{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+}

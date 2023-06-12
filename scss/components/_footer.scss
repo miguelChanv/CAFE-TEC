@@ -30,3 +30,39 @@ footer{
 .footer__pags1 a{
     color: white;
 }
+.footer__pags1-0{
+    display: none;
+}
+@media(min-width:768px){
+    footer{
+        height: 200px;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: space-between;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .footer__contact{
+        margin-right: 20px;
+    }
+    .footer__redesSociales{
+        font-size: 1.4rem;
+        flex-direction: column;
+    }
+    .footer__name img{
+        width: 300px;
+    }
+    .footer__pags1{
+        display: none;
+    }
+    .footer__pags1-0 a {
+        color: white;
+    }
+    .footer__pags1-0{
+        
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 15px;
+    }
+}
