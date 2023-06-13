@@ -11,30 +11,62 @@
 @import "./pages/contrata";
 @import "./pages/administra";
 @import "./pages/nosotros";
-
-.tarjetas{
-    width: 100%;
+@import "./pages/tarjetas";
+.contacto{
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    background-color: white;
+    height: 600px;
+    align-items: center;
 }
-.tarjetas__grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
-}
-.tarjetas__sub{
-    width: 200px;
-    height: 350px;
+.contacto__txt{
+    margin-left: 3rem;
+    margin-top: 40px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+}
+.contacto__txt h1{
+    font-weight: bold;
+    font-size: 3-.5rem;
+}
+.contacto__txt p{
+    font-size: 1.8rem;
+}
+.contacto__img{
+    width: 40%;
+}
+.contacto__img img{
+    width: 100%;
+}
+.contacto__txt-btn{
+    width: 100%;
+    height: 100px;
+    display: flex;
     justify-content: center;
-    background-color: white;
+    align-items: center;
+    gap: 20px;
 }
-.tarjetas__sub img{
-    width: 90%;
+.contacto__btn{
+    border: 1px solid black;
+    padding: 10px ;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.tarjetas__btn{
-    width: 150px;
+.contacto__btn2{
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }

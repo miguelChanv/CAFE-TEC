@@ -383,9 +383,13 @@ footer {
   .razones {
     margin-top: 50px;
     background-color: white;
-    height: 250px;
-    width: 80%;
+    height: 350px;
+    width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .razones__titulo {
     margin: 10px;
@@ -396,17 +400,22 @@ footer {
   }
   .razones__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .razones__sub {
-    width: 250px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .razones__sub h4 {
+    font-size: 2rem;
+  }
   .razones__img {
-    width: 100px;
+    width: 200px;
   }
   .razones__sub p {
     font-size: 0.8rem;
@@ -414,6 +423,14 @@ footer {
   .btn-razones {
     margin: 20px 0px;
     display: flex;
+    justify-content: center;
+  }
+  .ajustar {
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
 }
@@ -454,7 +471,7 @@ footer {
 }
 
 .contrata__img img {
-  width: 100%;
+  width: 80%;
 }
 
 .administra {
@@ -463,6 +480,8 @@ footer {
   background-color: rgb(100, 20, 20);
   color: white;
   margin: 50px 0px;
+  align-items: center;
+  justify-content: center;
 }
 
 .administra__txt {
@@ -540,6 +559,12 @@ footer {
   margin-bottom: 50px;
 }
 
+.tarjetas__h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
 .tarjetas__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -562,6 +587,72 @@ footer {
 
 .tarjetas__btn {
   width: 150px;
+}
+
+.contacto {
+  display: flex;
+  background-color: white;
+  height: 600px;
+  align-items: center;
+}
+
+.contacto__txt {
+  margin-left: 3rem;
+  margin-top: 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contacto__txt h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.contacto__txt p {
+  font-size: 1.8rem;
+}
+
+.contacto__img {
+  width: 40%;
+}
+
+.contacto__img img {
+  width: 100%;
+}
+
+.contacto__txt-btn {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contacto__btn {
+  border: 1px solid black;
+  padding: 10px;
+  width: 220px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto__btn2 {
+  background-color: black;
+  color: white;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

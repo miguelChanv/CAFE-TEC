@@ -1,0 +1,31 @@
+.tarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.tarjetas__h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.tarjetas__grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.tarjetas__sub{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.tarjetas__sub img{
+    width: 90%;
+}
+.tarjetas__btn{
+    width: 150px;
+}

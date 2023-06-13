@@ -3,9 +3,13 @@
 .razones{
     margin-top: 50px;
     background-color: white;
-    height: 250px;
-    width: 80%;
+    height: 350px;
+    width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .razones__titulo{
     margin: 10px;
@@ -17,17 +21,22 @@
 }
 .razones__grid{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .razones__sub{
-    width: 250px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.razones__sub h4{
+    font-size: 2rem;
+}
 .razones__img{
-    width: 100px;
+    width: 200px;
 }
 .razones__sub p{
     font-size: 0.8rem;
@@ -35,6 +44,14 @@
 .btn-razones{
     margin: 20px 0px;
     display: flex;
+    justify-content: center;
+}
+.ajustar{
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 }
